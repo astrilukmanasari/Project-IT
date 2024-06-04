@@ -52,7 +52,6 @@
                     <li><a href="review.html">Review</a></li>
                     <li><a href="login.html">Login</a></li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
 
         </div>
