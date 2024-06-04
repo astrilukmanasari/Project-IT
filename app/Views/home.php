@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon1.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -28,13 +28,6 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: Moderna
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Updated: May 7 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -44,37 +37,20 @@
         <div class="container d-flex justify-content-between align-items-center">
 
             <div class="logo">
-                <h1 class="text-light"><a href="index.html"><span>SudutSepatu.co</span></a></h1>
+                <h1 class="text-light"><a href="index.html"></a><img src="assets/img/logo1.png" alt="" class="img-fluid"><span> SudutSepatu.co</span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
             </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="active " href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Gallery</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -89,16 +65,18 @@
             <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Moderna</span></h2>
-                    <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                    <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                    <h3 class="animate__animated animate__fadeInDown"><span>Selamat Datang Di</span></h3>
+                    <h2><span>SHOES CLEAN AND CARE</span></h2>
+                    <h4><span>SUDUTSEPATU.CO</span></h4>
+                    <p class="animate__animated animate__fadeInUp"> </p>
+                    <a href="" class="btn-get-started animate__animated animate__fadeInUp">SHOW MORE</a>
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+                    <h2 class="animate__animated animate__fadeInDown">Solusi Cuci Sepatu Bersih & Cepat</h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                     <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                 </div>
@@ -107,7 +85,7 @@
             <!-- Slide 3 -->
             <div class="carousel-item">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+                    <h2 class="animate__animated animate__fadeInDown">Sudutsepatu.co</h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                     <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                 </div>
@@ -129,6 +107,9 @@
         <!-- ======= Services Section ======= -->
         <section class="services">
             <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h1>OUR SERVICES</h1>
+                </div>
 
                 <div class="row">
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
@@ -172,7 +153,7 @@
         <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
             <div class="container">
 
-                <div class="row">
+                <di class="row">
                     <div class="col-lg-6 video-box">
                         <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
                         <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
@@ -193,7 +174,7 @@
                         </div>
 
                     </div>
-                </div>
+                </di>
 
             </div>
         </section><!-- End Why Us Section -->
