@@ -9,7 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sudut Sepatu - Login</title>
+    <title>Sudutsepatu.co - Login</title>
+
+    <link href="assets_cms/gambar/favicon1.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <link rel="icon" href="<?= base_url('assets_cms/gambar/favicon-32x32.png'); ?>" type="image/x-icon">
 

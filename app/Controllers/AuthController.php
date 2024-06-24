@@ -11,7 +11,7 @@ class AuthController extends BaseController
     public function daftar()
     {
         helper(['form', 'url']);
- 
+
         $rules = [
             'name'              => 'required|min_length[3]|max_length[50]',
             'email'             => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
@@ -20,7 +20,7 @@ class AuthController extends BaseController
             'address'           => 'required',
             'phone'             => 'required|numeric|min_length[10]'
         ];
- 
+
         if ($this->validate($rules)) {
             $model = new UserModel();
             $data = [
@@ -33,8 +33,9 @@ class AuthController extends BaseController
                 'image'     => 'assets/img/undraw_profile.svg',  // Nilai default untuk image
                 'created_at' => date('Y-m-d H:i:s')
             ];
+
             $model->save($data);
- 
+
             return redirect()->to('/register')->with('success', 'Registrasi berhasil');
         } else {
             $data['validation'] = $this->validator;
@@ -47,17 +48,17 @@ class AuthController extends BaseController
         helper(['form']);
         return view('auth/login');
     }
- 
+
     public function authenticate()
     {
         helper(['form', 'url']);
         $session = session();
         $model = new UserModel();
- 
+
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
         $data = $model->where('email', $email)->first();
- 
+
         if ($data) {
             $pass = $data['password'];
             $verify_pass = password_verify($password, $pass);
@@ -81,6 +82,4 @@ class AuthController extends BaseController
             return redirect()->to('/login');
         }
     }
-
 }
-    

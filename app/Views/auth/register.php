@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>Sudutsepatu.co - Register</title>
 
+    <link href="assets_cms/gambar/favicon1.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
     <link rel="icon" href="<?= base_url('assets_cms/gambar/favicon-32x32.png'); ?>" type="image/x-icon">
 
     <link rel="icon" href="<?= base_url('assets_cms/gambar/favicon-32x32.png'); ?>" type="image/x-icon">
@@ -34,10 +37,11 @@
                             <?php endif; ?>
 
                             <?php if (isset($validation)) : ?>
-                                <div class="alert alert-danger" role="alert">
-                                    <?= $validation->listErrors() ?>
+                                <div class="alert alert-danger">
+                                    <?= $validation->listErrors(); ?>
                                 </div>
                             <?php endif; ?>
+
 
                             <form class="user" action="<?= base_url('register') ?>" method="post">
                                 <?= csrf_field() ?>
