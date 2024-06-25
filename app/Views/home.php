@@ -47,7 +47,6 @@
                     <li><a class="active " href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="<?php echo base_url('register'); ?>">Order</a></li>
-                    <li><a href="about.html">About</a></li>
                     <li><a href="review.html">Review</a></li>
                     <li><a href="<?php echo base_url('login'); ?>">Login</a></li>
                 </ul>

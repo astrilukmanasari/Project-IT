@@ -14,6 +14,7 @@
     <link href="<?= base_url('assets_cms/vendor/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="<?= base_url('assets_cms/css/sb-admin-2.min.css'); ?>" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body class="bg-gradient-primary">
@@ -37,11 +38,13 @@
                             <?php endif; ?>
 
                             <?php if (isset($validation)) : ?>
-                                <div class="alert alert-danger">
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
                                     <?= $validation->listErrors(); ?>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
                                 </div>
                             <?php endif; ?>
-
 
                             <form class="user" action="<?= base_url('register') ?>" method="post">
                                 <?= csrf_field() ?>
