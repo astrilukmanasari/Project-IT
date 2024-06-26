@@ -62,9 +62,8 @@
             <div class="carousel-item active">
                 <div class="carousel-container">
                     <h3 class="animate__animated animate__fadeInDown"><span>Selamat Datang Di</span></h3>
-                    <h2><span>SHOES CLEAN AND CARE</span></h2>
-                    <h4><span>SUDUTSEPATU.CO</span></h4>
-                    <p class="animate__animated animate__fadeInUp"> </p>
+                    <h2 class="animate__animated animate__fadeInUp"><span>SHOES CLEAN AND CARE</span></h2>
+                    <h4 class="animate__animated animate__fadeInUp"><span>SUDUTSEPATU.CO</span></h4>
                     <a href="" class="btn-get-started animate__animated animate__fadeInUp">SHOW MORE</a>
                 </div>
             </div>
@@ -72,8 +71,8 @@
             <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">Solusi Cuci Sepatu Bersih & Cepat</h2>
-                    <p class="animate__animated animate__fadeInUp"></p>
+                    <h3 class="animate__animated animate__fadeInDown">Laundry cepat, bersih, dan terpercaya</h3>
+                    <h2 class="animate__animated animate__fadeInUp"><span>Sudutsepatu.co Solusinya!</span></h2>
                     <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                 </div>
             </div>
@@ -82,7 +81,8 @@
             <div class="carousel-item">
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Sudutsepatu.co</h2>
-                    <p class="animate__animated animate__fadeInUp"></p>
+                    <h4 class="animate__animated animate__fadeInUp"><span>Mau sepatu bersih maksimal tapi gak mau repot nyuci?</span></h4>
+                    <h4 class="animate__animated animate__fadeInUp"><span> Hubungi Shoes Care kami aja!</span></h4>
                     <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                 </div>
             </div>
@@ -99,50 +99,35 @@
     </section><!-- End Hero -->
 
     <main id="main">
-
         <!-- ======= Services Section ======= -->
         <section class="services">
             <div class="container">
                 <div class="section-title" data-aos="fade-up">
-                    <h1>OUR SERVICES</h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                        <div class="icon-box icon-box-pink">
-                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                            <h4 class="title"><a href="">Cuci Prioritas</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        </div>
+                    <div class="services-header">
+                        <h2>OUR SERVICES</h2>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon-box icon-box-cyan">
-                            <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4 class="title"><a href="">Whitening</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <div class="service-container">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                            <img src="path/to/your/image1.png" alt="Icon 1">
+                            <h3>Cuci Prioritas</h3>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon-box icon-box-green">
-                            <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4 class="title"><a href="">Cuci Luar Dalam</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                            <img src="path/to/your/image2.png" alt="Icon 2">
+                            <h3>Cuci Luar Dalam</h3>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon-box icon-box-blue">
-                            <div class="icon"><i class="bx bx-world"></i></div>
-                            <h4 class="title"><a href="">Layanan Tambahan</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                            <img src="path/to/your/image3.png" alt="Icon 3">
+                            <h3>Layanan Tambahan</h3>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                         </div>
                     </div>
 
                 </div>
-
-            </div>
         </section><!-- End Services Section -->
 
 

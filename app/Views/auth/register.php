@@ -49,7 +49,7 @@
                             <form class="user" action="<?= base_url('register') ?>" method="post">
                                 <?= csrf_field() ?>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" name="name" placeholder="Nama Lengkap" value="<?= set_value('name') ?>">
+                                    <input type="text" class="form-control form-control-user" name="nama" placeholder="Nama Lengkap" value="<?= set_value('nama') ?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="email" class="form-control form-control-user" name="email" placeholder="Alamat Email" value="<?= set_value('email') ?>">
@@ -63,10 +63,10 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" name="address" placeholder="Alamat" value="<?= set_value('address') ?>">
+                                    <input type="text" class="form-control form-control-user" name="alamat" placeholder="Alamat" value="<?= set_value('alamat') ?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" name="phone" placeholder="No Telephone" value="<?= set_value('phone') ?>">
+                                    <input type="text" class="form-control form-control-user" name="no_hp" placeholder="No Telephone" value="<?= set_value('no_hp') ?>">
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">
                                     Buat Akun

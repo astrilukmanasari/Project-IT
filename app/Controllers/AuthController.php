@@ -8,27 +8,32 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 class AuthController extends BaseController
 {
+    public function index()
+    {
+        helper(['form']);
+        return view('auth/register');
+    }
     public function daftar()
     {
         helper(['form', 'url']);
 
         $rules = [
-            'name'              => 'required|min_length[3]|max_length[50]',
+            'nama'              => 'required|min_length[3]|max_length[50]',
             'email'             => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
             'password'          => 'required|min_length[8]|max_length[255]',
             'repeat_password'   => 'matches[password]',
-            'address'           => 'required',
-            'phone'             => 'required|numeric|min_length[10]'
+            'alamat'            => 'required',
+            'no_hp'             => 'required|numeric|min_length[10]'
         ];
 
         if ($this->validate($rules)) {
             $model = new UserModel();
             $data = [
-                'name'      => $this->request->getVar('name'),
+                'nama'      => $this->request->getVar('nama'),
                 'email'     => $this->request->getVar('email'),
                 'password'  => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
                 'address'   => $this->request->getVar('address'),
-                'phone'     => $this->request->getVar('phone'),
+                'no_hp'     => $this->request->getVar('no_hp'),
                 'role'      => 'pelanggan',  // Atur default role ke 'pelanggan'
                 'image'     => 'assets/img/undraw_profile.svg',  // Nilai default untuk image
                 'created_at' => date('Y-m-d H:i:s')
@@ -65,7 +70,7 @@ class AuthController extends BaseController
             if ($verify_pass) {
                 $ses_data = [
                     'id'       => $data['id'],
-                    'name'     => $data['name'],
+                    'nama'     => $data['nama'],
                     'email'    => $data['email'],
                     'role'     => $data['role'],
                     'image'    => $data['image'],  // Tambahkan atribut image
